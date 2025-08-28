@@ -32,7 +32,6 @@ def _binary_search(mylist, key, left, right):
 	Returns:
 	  index of key in mylist, or -1 if not present.
 	"""
-	print(left, right)
 	if mylist[0] > key or mylist[-1] < key or left > right:
 		return -1
 	if mylist[left] == key:
