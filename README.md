@@ -45,7 +45,7 @@ We'll compare the running times of `linear_search` and `binary_search` empirical
 
 - [ ] 4. Describe the worst case input value of `key` for `linear_search`? for `binary_search`? 
 
-  For linear search, the worst case is an element that does not exist. The way I wrote binary search, the worst case should be in the 1/4 of 3/4 area of the list.
+  For linear search, the worst case is an element that does not exist. For binary search, its a key that forces the list down to the smallest search space.
 
 - [ ] 5. Describe the best case input value of `key` for `linear_search`? for `binary_search`? 
 
@@ -71,7 +71,7 @@ We'll compare the running times of `linear_search` and `binary_search` empirical
 
 - [ ] 9. The theoretical worst-case running time of linear search is $O(n)$ and binary search is $O(log_2(n))$. Do these theoretical running times match your empirical results? Why or why not?
 
-  Because of external variables and the time taken to start up a program, real world results will never exactly match theoretical times. 
+  Because of external variables and the time taken to start up a program, real world results will never exactly match theoretical times. For linear search, we are supposed to get a 10x speed decline when the list size increases 10x, but the actual increase is slightly larger than that.
 
 - [ ] 10. Binary search assumes the input list is already sorted. Assume it takes $\Theta(n^2)$ time to sort a list of length $n$. Suppose you know ahead of time that you will search the same list $k$ times. 
   + What is worst-case complexity of searching a list of $n$ elements $k$ times using linear search? $\Theta(kn)$
