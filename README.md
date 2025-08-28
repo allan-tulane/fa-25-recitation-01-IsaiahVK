@@ -59,13 +59,6 @@ We'll compare the running times of `linear_search` and `binary_search` empirical
 
 - [ ] 8. Call `print_results(compare_search())` and paste the results here:
 
-0 9
-0 99
-0 999
-0 9999
-0 99999
-0 999999
-0 9999999
 |        n |   linear |   binary |
 |----------|----------|----------|
 |       10 |    0.000 |    0.000 |
